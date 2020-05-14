@@ -1,0 +1,131 @@
+header{
+	background-color: #848E66;
+	background-image: url('../images/flywheel.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	padding:20px;
+	text-align: center;
+}
+header a{
+	background-color:rgba(218,234,213,0.60);
+
+	display: inline-block;
+	margin: 2%;
+
+	padding: 2%;
+	text-decoration: none;
+
+	width: 150px;
+	height: 20px;
+	vertical-align:middle;
+	text-align: center;
+	color:#000000;
+
+	font-weight: bold;
+	font-size: 120%;
+
+	border-radius: 5px;
+	-webkit-border-radius:3;
+	-moz-border-radius:3;
+	-o-border-radius:3;
+
+
+}
+h1{
+	font-size: 120%;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 150%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.left{
+	background-color: #CCCC00;
+	float: left;
+	width: 22%;
+	padding: .5%;
+
+	
+}
+.right{
+	display: inline-block;
+	width: 74%;
+	padding-left: 1%;
+	font-size: 120%;
+}
+.active{
+	background-color: #ffffff;
+}
+
+.left img{ 
+	border: 1px solid black;
+	
+	margin: 10%;
+	width:80%;
+}
+body{
+	padding: 10px;
+	margin: 1%;
+}
+table{
+		text-align: center;
+		box-sizing: border-box;
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		font-size: 15px;
+		line-height: 15px;
+		color: #000000;
+		font-family: Arial;
+		-webkit-border-radius:5px 5px 0 0;
+		border-radius: 0 0 5px 5px;
+
+}
+tr{
+	background-color:  rgba(255, 51, 153,0.8);
+	transition: background-color 0.5s;
+}
+/*border rad for last child*/
+tr:last-child{
+	-webkit-border-radius:5px 5px 0 0 ;
+	border-radius: 0 0 5px 5px;
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius:0 0 5px 0 ;
+	border-radius: 0 0 5px 0;
+/*border rad for first child*/
+}
+tr:last-child>td:first-child{
+	-webkit-border-radius:0 0 0 5px ;
+	border-radius: 0 0 0 5px;
+}
+th{
+	background-color:#CCCC00;
+	color: #ffffff;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	border-bottom: 3px solid black;
+
+}
+td{
+	padding: 10px;
+	color: #000000;
+	text-shadow: 2px 2px 2px #FF0000;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+}
+th:nth-child(1){
+	text-align:left;
+}
+
+td:nth-child(1){
+	text-align: left;
+}
+tr:hover{
+	background-color: rgba(255, 51, 153,1);
+}
