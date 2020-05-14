@@ -1,0 +1,32 @@
+body{
+	margin: 1%;
+	padding: 1%;
+	background:#F2F2F2;
+
+}
+nav{
+	box-sizing: border-box;
+	border:1px solid black;
+	background-color: #ffffff;
+	color:#06425C;
+	overflow: auto;
+	padding-left: 20px;
+}
+nav a{
+	box-sizing: border-box;
+	display:inline-block;
+	margin: 1% 5% 1% 0;
+	padding: 1% 5%;
+	height:60px;
+	color:#ffffff;
+	border-radius:25px;
+	background:#486B02;
+	text-decoration:none;
+}
+nav a:hover{
+	border-radius: 0;
+	color: #000000;
+}
+.current{
+	background-color:#800000;
+}
